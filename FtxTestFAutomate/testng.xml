@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ftx Test Automate">
+
+
+
+      <test thread-count="5" name="Home Test">
+      <classes>
+      <class name="com.ftx.qa.testcase.HomePageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="SignEnq Test">
+      <classes>
+      <class name="com.ftx.qa.testcase.SignEnqModuleTest"/>
+      </classes>
+      </test>
+     
+      
+       <test thread-count="5" name="RejectModule Test">
+       <classes>
+       <class name="com.ftx.qa.testcase.RejectModulePageTest"/>
+       </classes>
+       </test>
+      
+       <test thread-count="5" name="Approved Module Test">
+       <classes>
+       <class name="com.ftx.qa.testcase.ApprovedPageTest"/>
+       </classes>
+       </test>
+       
+       <test thread-count="5" name="Verification module Test">
+       <classes>
+       <class name="com.ftx.qa.testcase.VerificationPageTest"/>
+       </classes>
+       </test>
+       
+       <test thread-count="5" name="Verification Pending Test ">
+       <classes>
+       <class name="com.ftx.qa.testcase.VerificationPendingPageTest"/>
+       </classes>
+       </test>
+       
+       <test thread-count="5" name="Verification Rejected Test">
+       <classes>
+       <class name="com.ftx.qa.testcase.RejectedVerificationPageTest"/>
+       </classes>
+       </test>
+  
+       
+       <test thread-count="5" name="Test Enquiry module">
+       <classes>
+       <class name="com.ftx.qa.testcase.EnquiryCompletedPageTest"/>
+       </classes>
+       </test>
+       
+      
+  
+  
+  
+</suite> <!-- Suite -->
