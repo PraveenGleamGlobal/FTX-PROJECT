@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Stage panel">
+  
+      
+  
+ 
+      <test thread-count="5" name="HomePage Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.HomePageTest"/>
+      </classes>
+      </test>
+
+
+      <test thread-count="5" name="HistoryModule Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.HistoryModulePageTest"/>
+      </classes>
+      </test>
+
+      <test thread-count="5" name="CallsModule Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.CallsModulePageTest"/>
+      </classes>
+      </test>
+
+      <test thread-count="5" name="EnquiriesModule Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.EnquiriesModulePageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="EnquiriesModule2 Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.EnquiriesModulePage2Test"/>
+      </classes>
+      </test>
+      
+     
+      <test thread-count="5" name="EnquiriesModule3 Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.EnquiriesmodulePageTest3"/>
+      </classes>
+      </test>
+      
+      
+      <test thread-count="5" name="TodayChecklist Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.TodayChecklistModulePageTest"/>
+      </classes>
+      </test>
+
+      <test thread-count="5" name="ClientStaus Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.ClientStatusModulePageTest"/>
+      </classes>
+      </test>
+
+      <test thread-count="5" name="Attendance Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.AttendanceModulePageTest"/>
+      </classes>
+      </test>
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->
