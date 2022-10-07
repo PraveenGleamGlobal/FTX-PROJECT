@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TL Panel">
+ 
+ 
+      <test thread-count="5" name="Login Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.LoginPageTest"/>
+      </classes>
+      </test>
+     
+      
+      <test thread-count="5" name="Staff Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.StaffsPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="Staff2 Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.StaffPage2Test"/>
+      </classes>
+      </test>
+      
+
+      <test thread-count="5" name="StaffPasword Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.StaffPasswordPageTest"/>
+      </classes>
+      </test>
+     
+       <test thread-count="5" name="LeaveRequest Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.LeaveRequestPagetTest"/>
+      </classes>
+      </test>
+     
+     
+      <test thread-count="5" name="UpdateEnquiry Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.UpdateEnquiryPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="StaffTransfer Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.StaffTransferPageTest"/>
+      </classes>
+      </test>
+   
+
+      <test thread-count="5" name="InvoiceOtp Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.InvoiceOtpTest"/>
+      </classes>
+      </test>
+      
+      
+      <test thread-count="5" name="Attendance Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.AttendancePageTest"/>
+      </classes>
+      </test>
+      
+
+   
+</suite> <!-- Suite -->
