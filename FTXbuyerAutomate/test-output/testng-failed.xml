@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FTX Buyer Login]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Upload Test(failed)">
+    <classes>
+      <class name="com.ftx.qa.testcases.UploadDocumentTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyUploadButton"/>
+        </methods>
+      </class> <!-- com.ftx.qa.testcases.UploadDocumentTest -->
+    </classes>
+  </test> <!-- Upload Test(failed) -->
+  <test thread-count="5" name="Signature  Test(failed)">
+    <classes>
+      <class name="com.ftx.qa.testcases.VirtualSignaturePageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="executeSignature"/>
+        </methods>
+      </class> <!-- com.ftx.qa.testcases.VirtualSignaturePageTest -->
+    </classes>
+  </test> <!-- Signature  Test(failed) -->
+  <test thread-count="5" name="Agreement Test(failed)">
+    <classes>
+      <class name="com.ftx.qa.testcases.AgreementPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="executeAcceptAgreementLink"/>
+        </methods>
+      </class> <!-- com.ftx.qa.testcases.AgreementPageTest -->
+    </classes>
+  </test> <!-- Agreement Test(failed) -->
+</suite> <!-- Failed suite [FTX Buyer Login] -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FTX Buyer Login">
+ 
+      <test thread-count="5" name="Login Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.LoginPageTest"/>
+      </classes>
+      </test>
+    
+      <test thread-count="5" name="Home Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.HomePageTest"/>
+      </classes>
+      </test>
+    
+      <test thread-count="5" name="Upload Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.UploadDocumentTest"/>
+      </classes>
+      </test>
+      
+        <test thread-count="5" name="Signature  Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.VirtualSignaturePageTest"/>
+      </classes>
+      </test>
+      
+       <test thread-count="5" name="Agreement Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.AgreementPageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="AgreementPDF Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.AgreementPagePDFTest"/>
+      </classes>
+      </test>
+  
+    
+  
+</suite> <!-- Suite -->
