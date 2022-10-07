@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Broadcasting Panel">
+
+
+      <test thread-count="5" name="HomePage Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.HomePageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="InstantDashModulePage Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.InstantDashModulePageTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="SenderDomainModule Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.SenderDomainModuleTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="TemplatesModule Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.TemplatesModuleTest"/>
+      </classes>
+      </test>
+      
+      <test thread-count="5" name="CampaignsModuleTest Test">
+      <classes>
+      <class name="com.ftx.qa.testcases.CampaignsModuleTest"/>
+      </classes>
+      </test>
+      
+      
+
+</suite>
